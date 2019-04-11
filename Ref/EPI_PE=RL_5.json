@@ -6,7 +6,7 @@
 	"ManufacturersModelName": "Skyra",
 	"InstitutionName": "NIH",
 	"InstitutionalDepartmentName": "FMRIF_3TD",
-	"InstitutionAddress": "10_Center_Drive_Building_10_Room_B1D307_Bethesda--_Maryland_U",
+	"InstitutionAddress": "10_Center_Drive_Building_10_Room_B1D307_Bethesda--_Maryland_US_20892",
 	"DeviceSerialNumber": "45160",
 	"StationName": "AWP45160",
 	"BodyPartExamined": "BRAIN",
@@ -75,5 +75,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20181027  GCC6.1.0"
+	"ConversionSoftwareVersion": "v1.0.20190308  GCC8.2.0"
 }
