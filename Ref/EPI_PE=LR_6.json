@@ -49,6 +49,7 @@
 	"PulseSequenceDetails": "%CustomerSeq%_nih_ep2d_bold",
 	"ConsistencyInfo": "N4_VE11C_LATEST_20160120",
 	"PercentPhaseFOV": 100,
+	"PercentSampling": 100,
 	"EchoTrainLength": 72,
 	"PhaseEncodingSteps": 72,
 	"AcquisitionMatrixPE": 72,
@@ -75,5 +76,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20190719  (JP2:OpenJPEG) (JP-LS:CharLS) Clang10.0.0"
+	"ConversionSoftwareVersion": "v1.0.20200331"
 }
