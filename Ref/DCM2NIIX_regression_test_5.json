@@ -14,7 +14,7 @@
 	"SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R01_1725.a",
 	"MRAcquisitionType": "2D",
 	"SeriesDescription": "Axial EPI-FMRI (Sequential I to S)",
-	"ProtocolName": "Axial EPI-FMRI (Sequential I to S)",
+	"ProtocolName": "DCM2NIIX regression test",
 	"ScanningSequence": "EP\\GR",
 	"SequenceVariant": "SS",
 	"ScanOptions": "EPI_GEMS\\PFF",
@@ -63,5 +63,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201020"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }
