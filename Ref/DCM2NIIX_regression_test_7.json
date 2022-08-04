@@ -3,7 +3,6 @@
 	"MagneticFieldStrength": 3,
 	"ImagingFrequency": 127.697,
 	"Manufacturer": "GE",
-	"PulseSequenceName": "epiRT",
 	"InternalPulseSequenceName": "EPI",
 	"ManufacturersModelName": "DISCOVERY MR750",
 	"InstitutionName": "NIH FMRIF",
@@ -18,6 +17,7 @@
 	"ScanningSequence": "EP\\GR",
 	"SequenceVariant": "SS",
 	"ScanOptions": "EPI_GEMS\\PFF",
+	"PulseSequenceName": "epiRT",
 	"ImageType": ["ORIGINAL", "PRIMARY", "EPI", "NONE"],
 	"SeriesNumber": 7,
 	"AcquisitionTime": "11:55:51.000000",
@@ -29,6 +29,11 @@
 	"RepetitionTime": 5,
 	"FlipAngle": 60,
 	"PhaseEncodingPolarityGE": "Unflipped",
+	"ShimSetting": [
+		4,
+		6,
+		-11	],
+	"PrescanReuseString": "TG/s3,RN/s1",
 	"CoilString": "32Ch Head",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
@@ -63,5 +68,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20220720"
 }

@@ -6,7 +6,7 @@
 	"ManufacturersModelName": "Skyra",
 	"InstitutionName": "NIH",
 	"InstitutionalDepartmentName": "FMRIF 3TD",
-	"InstitutionAddress": "10 Center Drive Building 10 Room B1D307,Bethesda--,Maryland,US,20",
+	"InstitutionAddress": "10 Center Drive Building 10 Room B1D307,Bethesda--,Maryland,US,20892",
 	"DeviceSerialNumber": "45160",
 	"StationName": "AWP45160",
 	"BodyPartExamined": "BRAIN",
@@ -21,6 +21,7 @@
 	"ScanOptions": "FS",
 	"SequenceName": "epfid2d1_72",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "ECHO", "00", "MOSAIC"],
+	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 4,
 	"AcquisitionTime": "12:26:54.517500",
 	"AcquisitionNumber": 1,
@@ -79,5 +80,5 @@
 	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20220720"
 }
