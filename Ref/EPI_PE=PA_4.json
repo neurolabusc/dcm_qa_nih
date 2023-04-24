@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.204,
+	"ImagingFrequency": 123.203893,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Skyra",
 	"InstitutionName": "NIH",
@@ -80,5 +80,5 @@
 	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20220720"
+	"ConversionSoftwareVersion": "v1.0.20230411"
 }
