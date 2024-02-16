@@ -10,6 +10,7 @@
 	"StationName": "fmrif3tb",
 	"BodyPartExamined": "BRAIN",
 	"PatientPosition": "HFS",
+	"ProcedureStepDescription": "Gradient Echo",
 	"SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R01_1725.a",
 	"MRAcquisitionType": "2D",
 	"SeriesDescription": "Axial EPI-FMRI (Sequential I to S)",
@@ -67,6 +68,7 @@
 		1,
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["func","_acq-EPI_dir-AP_run-5_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20230411"
+	"ConversionSoftwareVersion": "v1.0.20240202"
 }

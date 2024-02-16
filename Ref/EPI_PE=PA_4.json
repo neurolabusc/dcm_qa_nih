@@ -79,6 +79,7 @@
 		0	],
 	"ImageOrientationText": "Tra",
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["func","_acq-epfid2_dir-PA_run-4_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20230411"
+	"ConversionSoftwareVersion": "v1.0.20240202"
 }
