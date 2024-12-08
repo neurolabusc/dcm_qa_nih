@@ -8,7 +8,7 @@
 	"InstitutionName": "NIH FMRIF",
 	"DeviceSerialNumber": "000301496MR3T6MR",
 	"StationName": "fmrif3tb",
-	"BodyPartExamined": "BRAIN",
+	"BodyPart": "BRAIN",
 	"PatientPosition": "HFS",
 	"ProcedureStepDescription": "Gradient Echo",
 	"SoftwareVersions": "27\\LX\\MR Software release:DV26.0_R01_1725.a",
@@ -19,13 +19,17 @@
 	"SequenceVariant": "SS",
 	"ScanOptions": "EPI_GEMS\\PFF",
 	"PulseSequenceName": "epiRT",
-	"ImageType": ["ORIGINAL", "PRIMARY", "EPI", "NONE"],
+	"ImageType": ["ORIGINAL", "PRIMARY", "EPI", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 7,
 	"AcquisitionTime": "11:55:51.000000",
 	"AcquisitionNumber": 1,
 	"SliceThickness": 3,
 	"SpacingBetweenSlices": 5,
 	"SAR": 0.0166392,
+	"TablePosition": [
+		0,
+		0,
+		-17.3125	],
 	"EchoTime": 0.03,
 	"RepetitionTime": 5,
 	"FlipAngle": 60,
@@ -41,6 +45,7 @@
 	"AcquisitionMatrixPE": 64,
 	"ReconMatrixPE": 64,
 	"EffectiveEchoSpacing": 0.000388,
+	"AcquisitionDuration": 50,
 	"TotalReadoutTime": 0.024444,
 	"PixelBandwidth": 7812.5,
 	"PhaseEncodingDirection": "j-",
@@ -70,5 +75,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-EPI_dir-AP_run-7_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240202"
+	"ConversionSoftwareVersion": "v1.0.20241127"
 }
