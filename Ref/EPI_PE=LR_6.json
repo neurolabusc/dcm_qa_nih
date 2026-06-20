@@ -19,12 +19,13 @@
 	"ProtocolName": "EPI PE=LR",
 	"ScanningSequence": "EP",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo EPI",
 	"ScanOptions": "FS",
 	"SequenceName": "epfid2d1_72",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "ND", "ECHO", "00", "MOSAIC", "MAGNITUDE"],
 	"NonlinearGradientCorrection": false,
 	"SeriesNumber": 6,
-	"AcquisitionTime": "12:30:2.285000",
+	"AcquisitionTime": "12:30:02.285000",
 	"AcquisitionNumber": 1,
 	"ImageComments": "None",
 	"SliceThickness": 3,
@@ -37,7 +38,6 @@
 	"EchoTime": 0.05,
 	"RepetitionTime": 2.43537,
 	"FlipAngle": 75,
-	"PartialFourier": 1,
 	"BaseResolution": 72,
 	"ShimSetting": [
 		-3717,
@@ -63,6 +63,8 @@
 	"AcquisitionMatrixPE": 72,
 	"ReconMatrixPE": 72,
 	"BandwidthPerPixelPhaseEncode": 27.233,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"EffectiveEchoSpacing": 0.000510002,
 	"DerivedVendorReportedEchoSpacing": 0.000510002,
 	"TotalReadoutTime": 0.0362102,
@@ -86,5 +88,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["func","_acq-epfid2_dir-LR_run-6_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20241127"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
